@@ -1,9 +1,12 @@
 # Battleship-Game <br />
+
 A simple 'Space Invader' game recreated using pygame. <br />
+
 Here are a few components in the game: <br />
   1. The player or the battleship <br />
   2. The enemies (max count is 6) <br />
   3. The bullets <br />
+  
 Programming logic explanation: <br />
   1. The battleship can move in only 'x direction'. Whenever it crosses the border of the screen, redraw the battleship image at the border.
   2. The battleship can shoot only one bullet at a time. The bullet must cross the top border of the pygame window to get reloaded or it must hit an enemy.
